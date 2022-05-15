@@ -1,5 +1,6 @@
 import scrapy
 from kor_bank_data.items import KorBankDataItem
+import pandas as pd
 
 class CollectBaseRateSpider(scrapy.Spider):
     SERVICE = "StatisticSearch"
