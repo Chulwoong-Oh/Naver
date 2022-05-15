@@ -17,7 +17,6 @@ class KorBankDataItem(scrapy.Item):
     item_name2 = scrapy.Field()
     item_code3 = scrapy.Field()
     item_name3 = scrapy.Field()
-    
     unit_name = scrapy.Field()
     time = scrapy.Field()
     data_value = scrapy.Field()
