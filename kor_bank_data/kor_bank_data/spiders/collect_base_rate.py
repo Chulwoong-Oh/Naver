@@ -17,7 +17,7 @@ class CollectBaseRateSpider(scrapy.Spider):
     collect_url = "http://ecos.bok.or.kr/api/{}/{}/json/kr/1/1000/{}/{}/{}/{}".format(
         SERVICE, API_KEY, CODE, CYCLE, FROM_YM, TO_YM
     )
-    
+    ##############
     start_urls = [collect_url]
     
     def parse(self, response):
